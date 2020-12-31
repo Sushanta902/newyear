@@ -1,30 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 * {
   box-sizing: border-box;
 }
 
-body {
- 
 
-
+body, html {
+  height: 100%;
   margin: 0;
-  font-family: Arial;
-  font-size: 17px;
-  background-image: url('/bc.gif');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed; 
 }
 
-
-
 #content {
-  position: fixed;
+  position: absolute;
   text-align: center;
   bottom: 0%;
   background: rgba(0, 0, 0, 0.5);
@@ -61,23 +52,52 @@ body {
   cursor: pointer;
 }
 
+.bg{
+	 background-image: url("bc.gif");
 
+  /* Full height */
+  height: 100%; 
 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
 
 </style>
 </head>
 <body>
-
+<div class="bg"></div>
 <div id="content" >
   <h1 class="glow">Happy New Year 2021!</h1>
   <p>Presented By Sushanta Neupane!</p>
-  <p style="color:gray;font-size:10px;">Copyright © 2020-2021.Certain right reserved. <br>Powered By SN</p>
+  <p style="color:gray">Copyright © 2020-2021.Certain right reserved. <br>Powered By SN</p>
 
- 
 </div>
 
-
-
+<div style="padding-top: 5%;padding-left: 15%;font-size: 2em;color:gray">
+<!-- Add font awesome icons -->
+About me:<br>
+<a href="https://www.facebook.com/sushanta.neupane.5/" target="_blank" class="fa fa-facebook" style="background:#3B5998;color: white;"></a>
+<a href="https://twitter.com/sushantaneupan2" target="_blank" class="fa fa-twitter" style="background:skyblue;color: snow;"></a>
+<a href="https://www.instagram.com/sushanta_neupane/" target="_blank" class="fa fa-instagram" style="background:red;color: snow;"></a>
+<a href="https://www.reddit.com/user/Sushanta_Neupane" target="_blank" class="fa fa-reddit" style="background:#dd4b39;color: snow;"></a>
+<a href="https://www.github.com/Sushanta902/" target="_blank" class="fa fa-github" style="background:snow;color: black;border:solid black 1px"></a>
+</div>
 
 </body>
 </html>
